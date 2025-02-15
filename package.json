@@ -6,10 +6,16 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --fix",
     "format": "prettier src/ --write",
     "prepare": "husky",
-    "clean": "rm -rf .next && rm -rf node_modules && pnpm install"
+    "clean": "rm -rf .next node_modules && pnpm install",
+    "type-check": "tsc --noEmit",
+    "check": "pnpm lint && pnpm type-check",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "husky install",
+    "test": "jest",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.2",

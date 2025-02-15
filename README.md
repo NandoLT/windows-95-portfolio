@@ -1,8 +1,15 @@
-# Next.js + Tailwind CSS + TypeScript + EsLint + Prettier + Husky + Lint-Staged + CommitLint Starter and Boilerplate
+
+**This project aims to emulate the Windows 95 operating system in the browser. the idea is implement all the functionalities that could be run on this OS.
+Work in MS-DOS to playing Minesweeper, including the use of Paint or the file system... and much more.**
+
+## 🛠️ Boilerplate
+<details>
+
+### Next.js + Tailwind CSS + TypeScript + EsLint + Prettier + Husky + Lint-Staged + CommitLint Starter and Boilerplate
 
 Project configured with TypeScript, Tailwind CSS, and a suite of development tools and configurations to ensure a smooth and maintainable development workflow.
 
-## Features
+#### Codebase configuration
 
 - 🟦 **TypeScript** — for type-safe JavaScript.
 - 🎨 **Tailwind CSS** — for utility-first styling.
@@ -15,14 +22,29 @@ Project configured with TypeScript, Tailwind CSS, and a suite of development too
 - 🧩 **shadcn** — for a component library with styled themes.
 - 🌗 **Next Theme** — to enable light/dark theme toggling.
 - 🔒 **Typesafe env** — for strict environment variable validation.
+- ⚛️ **React & React DOM** - for develop all components.
 
 ---
 
-## Commit Message Guidelines
+</details>
+
+## 🚀 Features
+<details>
+
+
+</details>
+
+## 📜 How to use
+<details>
+
+</details>	
+
+## 📤 Commit Message Guidelines
+<details>
 
 This project follows the **Conventional Commits** standard to ensure consistent and readable commit history. Each commit message should follow the structure below:
 
-### Commit Message Format
+#### Commit Message Format
 
 
 - **type**: Describes the category of the change. Examples include `feat`, `fix`, `chore`, `docs`, `style`, `refactor`, `perf`, `test`, and `build`.
@@ -68,3 +90,5 @@ git commit -m "fix(ui): resolve button alignment issue on mobile"
 git commit -m "chore(deps): update eslint to latest version"
 git commit -m "docs(readme): update setup instructions"
 ```
+</details>
+

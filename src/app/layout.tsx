@@ -10,10 +10,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <div>
-        <body>{children}</body>
+      <body>
+        {children}
         <Taskbar />
-      </div>
+      </body>
     </html>
   );
 }

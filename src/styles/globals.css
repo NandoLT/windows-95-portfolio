@@ -61,6 +61,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-bg text-text font-w95;
+    @apply bg-bg font-w95 text-text;
   }
 }

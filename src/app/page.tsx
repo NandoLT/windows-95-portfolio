@@ -1,6 +1,6 @@
 "use client";
 
-export default function Home() {
+const Home = ()  => {
   return (
     <main className="flex h-screen items-center justify-center">
       <div className="border-4 border-win95border bg-win95gray p-6 shadow-lg">
@@ -10,3 +10,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;

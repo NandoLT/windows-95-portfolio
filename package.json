@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier src/ --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clean": "rm -rf .next && rm -rf node_modules && pnpm install"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.2",

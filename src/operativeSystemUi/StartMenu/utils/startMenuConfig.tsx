@@ -1,4 +1,4 @@
-import React, { HtmlHTMLAttributes, JSX, ReactElement } from "react";
+import React, { JSX, ReactElement } from "react";
 
 import {
   Computer3,
@@ -24,11 +24,7 @@ import {
 
 export interface MenuItem {
   name: string;
-  icon?:
-    | React.ReactNode
-    | ReactElement
-    | JSX.Element
-    | HtmlHTMLAttributes<HTMLLIElement>;
+  icon?: React.ReactNode | ReactElement | JSX.Element;
   subItems?: Record<string, MenuItem>;
   onClick?: () => void;
   isSectionDivider?: boolean;

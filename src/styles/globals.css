@@ -62,5 +62,7 @@
   }
   body {
     @apply bg-bg font-w95 text-text;
+    width: 100%;
+    height: 100%;
   }
 }

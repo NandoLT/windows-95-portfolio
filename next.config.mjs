@@ -7,7 +7,7 @@ const jiti = createJiti(fileURLToPath(import.meta.url));
 jiti("./src/env/server.ts");
 
 const nextConfig = {
-  /* config options here */
+  reactStrictMode: true,
 };
 
 export default nextConfig;
